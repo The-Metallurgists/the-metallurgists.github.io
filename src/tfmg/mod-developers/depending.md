@@ -22,8 +22,8 @@ image: https://metallurgists-of-create.github.io/assets/tfmg-ce-icon-large.webp
 ```groovy [build.gradle]
 repositories {
     maven {
-        name "Krystals Maven"
-        url "https://krystalsmaven.oreostack.uk/releases" // TFMG
+        name "Metallurgists' Maven"
+        url "https://maven.metallurgists.dev/releases" // TFMG
     }
     maven { url = "https://maven.ryanhcode.dev/releases" } // Sable Companion
 }
@@ -35,8 +35,8 @@ dependencies {
 ```kotlin [build.gradle.kts]
 repositories {
     maven {
-        name = "Krystals Maven"
-        url = uri("https://krystalsmaven.oreostack.uk/releases") // TFMG
+        name = "Metallurgists' Maven"
+        url = uri("https://maven.metallurgists.dev/releases") // TFMG
     }
     maven("https://maven.ryanhcode.dev/releases") // Sable Companion
 }

@@ -20,7 +20,10 @@ image: https://metallurgists-of-create.github.io/assets/empty-icon-large.webp
 ::: code-group
 ```groovy [build.gradle]
     repositories {
-        maven { url = "https://api.modrinth.com/maven" } // Hematite
+        maven {
+            name "Metallurgists' Maven"
+            url = "https://maven.metallurgists.dev/releases" // Hematite
+        }
     }
 
     dependencies {
@@ -29,7 +32,10 @@ image: https://metallurgists-of-create.github.io/assets/empty-icon-large.webp
 ```
 ```kotlin [build.gradle.kts]
     repositories {
-        maven("https://api.modrinth.com/maven") // Hematite
+        maven {
+            name = "Metallurgists' Maven"
+            url = uri("https://maven.metallurgists.dev/releases") // Hematite
+        }
     }
 
     dependencies {

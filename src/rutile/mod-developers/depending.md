@@ -22,8 +22,8 @@ image: https://metallurgists-of-create.github.io/assets/rutile-icon-large.webp
 ```groovy [build.gradle]
     repositories {
         maven {
-            name "Krystals Maven"
-            url "https://krystalsmaven.oreostack.uk/releases" // Rutile
+            name "Metallurgists' Maven"
+            url "https://maven.metallurgists.dev/releases" // Rutile
         }
         maven { url = "https://maven.ithundxr.dev/snapshots" } // Registrate
     }
@@ -36,8 +36,8 @@ image: https://metallurgists-of-create.github.io/assets/rutile-icon-large.webp
 ```kotlin [build.gradle.kts]
     repositories {
         maven {
-            name = "Krystals Maven"
-            url = uri("https://krystalsmaven.oreostack.uk/releases") // Rutile
+            name = "Metallurgists' Maven"
+            url = uri("https://maven.metallurgists.dev/releases") // Rutile
         }
         maven("https://maven.ithundxr.dev/snapshots") // Registrate
     }
