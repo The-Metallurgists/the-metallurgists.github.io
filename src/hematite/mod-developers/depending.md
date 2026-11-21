@@ -12,7 +12,7 @@ next:
 
 title: Hematite
 description: Depending on Hematite
-image: https://metallurgists-of-create.github.io/assets/empty-icon-large.webp
+image: https://metallurgists.dev/assets/hematite-icon-large.webp
 ---
 
 <!--@include: ./template.md-->

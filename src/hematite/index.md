@@ -5,14 +5,14 @@ lastUpdated: false
 
 title: Hematite
 description: Our API for a naturally changing world.
-image: https://metallurgists-of-create.github.io/assets/empty-icon-large.webp
+image: https://metallurgists.dev/assets/hematite-icon-large.webp
 
 hero:
   name: "Hematite"
   tagline: "Our API for a naturally changing world."
   image:
-    src: /assets/rutile-icon-large.webp
-    alt: Rutile Icon
+    src: /assets/hematite-icon-large.webp
+    alt: Hematite Icon
 
 features:
   - title: For Users
