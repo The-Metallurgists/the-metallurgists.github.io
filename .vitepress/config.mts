@@ -50,7 +50,7 @@ export default defineConfig({
   },
 
   sitemap: {
-    hostname: 'https://the-metallurgists.github.io'
+    hostname: 'https://metallurgists.dev'
   },
 
   async transformHead(context) {
